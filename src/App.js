@@ -1,11 +1,16 @@
-import React, {useEffect, useState} from 'react'
+// Packs
+import React, {useState} from 'react'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Redirect
 } from "react-router-dom";
+
+// Style
 import './App.css';
+
+// Components
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Products from './components/Products'

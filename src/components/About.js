@@ -20,12 +20,14 @@ export default function About() {
                 <a
                     href='https://www.facebook.com/Ella-122492955819810'
                     target='_blank'
+                    rel="noreferrer"
                 >
                       <p>{aboutInfo.about[2].text}</p>
                 </a>
                 <a
                      href='https://www.instagram.com/ella.flori.decorative/'
                      target='_blank'
+                     rel="noreferrer"
                 >
                     <p>{aboutInfo.about[3].text}</p>   
                 </a>  

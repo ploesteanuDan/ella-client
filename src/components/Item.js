@@ -67,7 +67,7 @@ export default function Item(props) {
                         className='CarouselContainer'
                       style={{ ...props }}
                     >
-                        <img className='CarouselImg' src={item.url}/>
+                        <img className='CarouselImg' alt='CarouselImg' src={item.url}/>
                     </animated.div>
                   ))
             }
