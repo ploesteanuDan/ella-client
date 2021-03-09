@@ -5,7 +5,8 @@ import Item from './Item'
 import {
     BrowserRouter as Router,
     Switch,
-    Route
+    Route,
+    Redirect
   } from "react-router-dom";
 export default function Products(props) {
 
@@ -14,6 +15,7 @@ export default function Products(props) {
 
     useEffect(() => {
         getCards()
+        console.log('selected',selectedItem)
     }, [])
 
     function getCards() {
@@ -40,7 +42,12 @@ export default function Products(props) {
                <Switch>
                     <Route path={'/products/item'}>
                         <div className='CardsContainer'>
-                            <Item selectedItem={selectedItem} action='add' updateCart={props.updateCart.bind(this)} setSelectedItem={setSelectedItem.bind(this)}/>
+                            {
+                                selectedItem === '' ? 
+                                <Redirect to='/products'/>
+                                :
+                                <Item selectedItem={selectedItem} action='add' updateCart={props.updateCart.bind(this)} setSelectedItem={setSelectedItem.bind(this)}/>
+                            }   
                         </div>
                     </Route>
                     <Route path='/products'>
