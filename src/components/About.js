@@ -16,8 +16,18 @@ export default function About() {
             </div>
             <div className='AboutFragment'>
                 <p className='AboutTitle'>Social Media</p>
-                <p>{aboutInfo.about[2].text}</p>
-                <p>{aboutInfo.about[3].text}</p>    
+                <a
+                    href='https://www.facebook.com/Ella-122492955819810'
+                    target='_blank'
+                >
+                      <p>{aboutInfo.about[2].text}</p>
+                </a>
+                <a
+                     href='https://www.instagram.com/ella.flori.decorative/'
+                     target='_blank'
+                >
+                    <p>{aboutInfo.about[3].text}</p>   
+                </a>  
             </div>
             <div className='AboutFragment'>
                 <p className='AboutTitle'>Contact</p>
