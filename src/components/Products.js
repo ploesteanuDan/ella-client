@@ -1,13 +1,17 @@
+// Packs
 import React, {useEffect, useState} from 'react'
 import firebase from '../config/firebase'
-import Map from './Map'
-import Item from './Item'
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Redirect
   } from "react-router-dom";
+  
+// Components
+import Map from './Map'
+import Item from './Item'
+
 export default function Products(props) {
 
     const [cards, setCards] = useState([])

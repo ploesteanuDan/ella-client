@@ -1,9 +1,16 @@
+// Packs
 import React, {useState} from 'react'
-import '../styles/Navbar.css'
 import { Link } from "react-router-dom";
+
+// Style
+import '../styles/Navbar.css'
+
+// Assets
 import cartImg from '../assets/shoppingCart.svg'
 import sidebarImg from '../assets/navToggle.svg'
 import logo_simp from '../assets/logo_simp.svg'
+
+// Components
 import Sidebar from './Sidebar'
 
 export default function Navbar({count}) {

@@ -1,12 +1,13 @@
+// Packs
 import React from 'react'
+
+// Style
 import '../styles/About.css'
+
+// Assets
 import aboutInfo from '../assets/about.json'
+
 export default function About() {
-
-    function getInfo(name){
-
-    }
-
     return (
         <div className='AboutContainer'>
             <div className='AboutFragment'>

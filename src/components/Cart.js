@@ -1,14 +1,21 @@
+// Packs
 import React, { useState, useEffect } from 'react'
-import Map from "../components/Map";
-import DetailBar from './DetailBar'
-import '../styles/Cart.css'
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link,
   } from "react-router-dom";
-  import Form from './Form'
+
+// Components
+import Map from "../components/Map";
+import DetailBar from './DetailBar'
+import Form from './Form'
+
+// Style
+import '../styles/Cart.css'
+
+
 export default function Cart(props) {
 
     const {cart, ...rest} = props

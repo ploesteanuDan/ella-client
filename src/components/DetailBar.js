@@ -1,9 +1,13 @@
+// Packs
 import React from 'react'
-import '../styles/DetailBar.css'
 import {
     Link,
     useRouteMatch
   } from "react-router-dom";
+  
+// Style
+import '../styles/DetailBar.css'
+
 export default function DetailBar(props) {
 
     let {url} = useRouteMatch()

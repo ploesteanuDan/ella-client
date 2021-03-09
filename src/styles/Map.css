@@ -63,6 +63,11 @@
     font-size: 4.5vw;
     left: 3vw;
   }
+  .NoProducts {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -108,6 +113,11 @@
     line-height: 5vw;
     font-size: 2vw;
     left: 2vw;
+  }
+  .NoProducts {
+    width: 30vw;
+    margin-left: 35vw;
+    margin-top: 10vw;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -159,5 +169,10 @@
     font-size: 1vw;
     left: 1vw;
     font-size: 0.9vw;
+  }
+  .NoProducts {
+    width: 20vw;
+    margin-left: 25vw;
+    margin-top: 5vw;
   }
 }

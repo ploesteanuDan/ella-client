@@ -1,11 +1,11 @@
+// Packs
 import React from 'react'
-import '../styles/Sidebar.css'
 import { Link } from "react-router-dom";
-export default function Sidebar(props) {
 
-    function handleSidebar(){
-        console.log('bg')
-    }
+// Style
+import '../styles/Sidebar.css'
+
+export default function Sidebar(props) {
 
     return (
         <div className='SidebarContainer'>

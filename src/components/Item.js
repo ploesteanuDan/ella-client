@@ -1,7 +1,11 @@
+// Packs
 import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom'
 import {useTransition, animated, config} from 'react-spring'
+
+// Style
 import '../styles/Item.css'
+
 export default function Item(props) {
 
     let item = props.selectedItem
@@ -11,7 +15,6 @@ export default function Item(props) {
         {id: 2, url: item.itemPic_3},
        ]
 
-    
     const [index, set] = useState(0)
     
     useEffect(() => {

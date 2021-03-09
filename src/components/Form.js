@@ -1,8 +1,14 @@
+// Packs
 import React, {useState, useEffect} from 'react'
-import '../styles/Form.css'
-import location from '../assets/judete.json'
 import firebase from '../config/firebase'
 import emailjs from 'emailjs-com'
+
+// Style
+import '../styles/Form.css'
+
+// Assets
+import location from '../assets/judete.json'
+
 
 export default function Form(props) {
 

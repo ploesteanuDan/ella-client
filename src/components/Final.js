@@ -1,6 +1,10 @@
-import React, {useEffect} from 'react'
+// Packs
+import React from 'react'
 import {Link} from 'react-router-dom'
+
+// Style
 import '../styles/Final.css'
+
 export default function Final(props) {
 
     return props.finished === true ? 

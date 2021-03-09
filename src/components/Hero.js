@@ -1,9 +1,14 @@
+// Packs
 import React from 'react'
-import '../styles/Hero.css'
-import logo from '../assets/logo.svg'
 import {
     Link
   } from "react-router-dom";
+
+// Style
+import '../styles/Hero.css'
+
+// Assets
+import logo from '../assets/logo.svg'
 
 export default function Hero() {
     return (

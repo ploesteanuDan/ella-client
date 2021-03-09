@@ -1,6 +1,10 @@
+// Packs
 import React, {useEffect, useState} from 'react'
-import '../styles/Map.css'
 import {Link} from 'react-router-dom'
+
+// Style
+import '../styles/Map.css'
+
 export default function Map(props) {
 
     const [primColor, setPrimColor] = useState('')
@@ -20,7 +24,7 @@ export default function Map(props) {
        }
     }, [])
 
-    if (props.items){    
+    if (props.items.length !== 0){    
         return (
             <div className='CardListContainer'>
                 {props.items.map(item=>(
@@ -47,7 +51,9 @@ export default function Map(props) {
 
     else return (
         <div className='CardListContainer'>
-            Nu exista produse in aceasta lista.
+            <div className='NoProducts'>
+                Nu exista produse selectate
+            </div>
         </div>
     )
 }
