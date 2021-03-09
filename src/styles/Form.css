@@ -1,6 +1,11 @@
 @media only screen and (max-width: 1024px) {
   .FormContainer {
-    margin-top: 5vh;
+    top: 17vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    overflow-y: scroll;
+    min-height: 60vh;
+    max-height: 43vw;
   }
 
   label {

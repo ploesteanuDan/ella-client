@@ -24,7 +24,7 @@
     height: 10vw;
     line-height: 6.5vw;
     font-size: 5vw;
-    position: fixed;
+    position: absolute;
     bottom: 7vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
