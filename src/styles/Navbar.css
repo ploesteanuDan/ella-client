@@ -1,0 +1,69 @@
+.NavbarContainer {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  background-color: #e6d3d0;
+  margin-bottom: 2.5vh;
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.164);
+}
+
+.CartImg {
+  width: 5vh;
+  height: 5vh;
+  position: fixed;
+  top: 1vh;
+  right: 5vw;
+  z-index: 2;
+}
+
+.CartNumber {
+  background-color: #04738c;
+  color: ivory;
+  font-weight: bold;
+  text-align: center;
+  line-height: 3vh;
+  width: 3vh;
+  height: 3vh;
+  border-radius: 1.5em;
+  transition: all 0.3s ease-in;
+  position: fixed;
+  top: 1vh;
+  right: 5vw;
+  margin-right: 3vh;
+  pointer-events: none;
+  font-weight: 500;
+  font-size: 2vh;
+  z-index: 3;
+}
+
+.SidebarButton {
+  width: 5vh;
+  height: 5vh;
+  position: fixed;
+  top: 1vh;
+  left: 5vw;
+}
+
+.LogoContainer {
+  height: 8vh;
+  overflow: hidden;
+}
+
+.Logo {
+  width: 30vh;
+  margin-top: -21vh;
+  z-index: 1;
+}
+
+.sidebarbag {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  left: 0;
+}

@@ -1,0 +1,28 @@
+{
+    "about": [
+        {
+            "name":"about1",
+            "text":"Ella este brandul firmei Ploesteanu Elena Valerica Intreprindere Individuala., cu sediul in Romania, Ialomita, Slobozia, Bd. Matei Basarab, Nr. 27, Bl. 160, Sc. D, Apt. 20."
+        },
+        {
+            "name":"about2",
+            "text":"Produsele noastre sunt facute de mana, iar din aceasta cauza, unicate. Daca un produs care va intereseaza dispare de pe site, atunci acesta nu mai este pe stoc, dar se poate reface la comanda. Ne puteti contacta la datele de mai jos pentru comenzi customizate sau pentru orice fel de sesizare."
+        },
+        {
+            "name":"social1",
+            "text":"Facebook: ella"
+        },
+        {
+            "name":"social2",
+            "text":"Instagram: ella.flori.decorative"
+        },
+        {
+            "name":"contact1",
+            "text":"Email: ella.flori.decorative@gmail.com"
+        },
+        {
+            "name":"contact2",
+            "text":"Telefon: +40766563674"
+        }        
+    ]
+}

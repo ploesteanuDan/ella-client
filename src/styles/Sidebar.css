@@ -1,0 +1,98 @@
+.SidebarContainer {
+  position: absolute;
+  z-index: 6;
+}
+
+.SidebarBg {
+  background-color: rgba(0, 0, 0, 0.397);
+  width: 100vw;
+  height: 100vh;
+}
+
+/* @media only screen and (max-width: 768px) {
+  .Sidebar {
+    position: absolute;
+    width: 95vw;
+    height: 37vh;
+    top: 15vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5vw;
+    background-color: #e6d3d0;
+    padding-top: 13vh;
+  }
+
+  .SidebarLink {
+    justify-content: center;
+    width: 70vw;
+    font-size: 5vw;
+    text-decoration: none;
+    background-color: #c0a8a4;
+    margin-bottom: 5vw;
+    margin-left: 14.5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    border-radius: 4vw;
+    color: ivory;
+  }
+} */
+
+@media only screen and (max-width: 1024px) {
+  .Sidebar {
+    position: absolute;
+    width: 60vw;
+    left: 20vw;
+    top: 15vh;
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5vw;
+    background-color: #e6d3d0;
+    padding-top: 8vh;
+    padding-bottom: 6vh;
+  }
+
+  .SidebarLink {
+    justify-content: center;
+    width: 45vw;
+    font-size: 3vw;
+    text-decoration: none;
+    background-color: #c0a8a4;
+    margin-bottom: 5vw;
+    margin-left: 7.5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-radius: 3vw;
+    color: ivory;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .Sidebar {
+    position: absolute;
+    width: 20vw;
+    top: 20vh;
+    left: 40vw;
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3vw;
+    background-color: #e6d3d0;
+    padding-top: 8vh;
+    padding-bottom: 6vh;
+  }
+
+  .SidebarLink {
+    justify-content: center;
+    width: 15vw;
+    font-size: 1vw;
+    text-decoration: none;
+    background-color: #c0a8a4;
+    margin-bottom: 2vw;
+    margin-left: 2.5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 1.5vw;
+    color: ivory;
+  }
+}

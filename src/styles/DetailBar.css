@@ -1,0 +1,68 @@
+.DetailBarContainer {
+  width: 100vw;
+  background-color: #e6d3d0;
+}
+
+@media only screen and (max-width: 785px) {
+  .DetailBarContainer {
+    position: fixed;
+    bottom: 0;
+    height: 20vh;
+  }
+
+  .DetailsContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5vw;
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+
+  .DetailsButton {
+    width: 40vw;
+    height: 10vw;
+    line-height: 6.5vw;
+    font-size: 5vw;
+    position: fixed;
+    bottom: 7vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border: none;
+    border-radius: 4vw;
+    background-color: #93bfbf;
+    color: ivory;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .DetailBarContainer {
+    position: fixed;
+    height: 17vh;
+    bottom: 0;
+  }
+
+  .DetailsContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5vh;
+    font-size: 2vh;
+    margin-top: 2vh;
+  }
+
+  .DetailsButton {
+    width: 10vh;
+    height: 5vh;
+    line-height: 0.5vh;
+    font-size: 2vh;
+    position: fixed;
+    bottom: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border: none;
+    border-radius: 4vw;
+    background-color: #93bfbf;
+    color: ivory;
+  }
+}

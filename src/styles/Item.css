@@ -1,0 +1,134 @@
+@media only screen and (max-width: 1024px) {
+  .BackButton {
+    top: 22vw;
+    border: none;
+    background-color: #bf9393;
+    padding: 2.5vw;
+    border-radius: 3.5vw;
+    font-size: 4.5vw;
+    position: absolute;
+    left: 3vw;
+    color: ivory;
+    height: 10vw;
+  }
+
+  .CarouselContainer {
+    width: 94vw;
+    height: 94vw;
+    top: 36vw;
+    margin-left: 3vw;
+    border-radius: 5vw;
+    overflow: hidden;
+  }
+
+  .CarouselImg {
+    width: 94vw;
+  }
+
+  .AddButton {
+    top: 22vw;
+    border: none;
+    background-color: #04738c;
+    padding: 2.5vw;
+    border-radius: 3.5vw;
+    font-size: 4.5vw;
+    position: absolute;
+    right: 3vw;
+    color: ivory;
+    height: 10vw;
+  }
+
+  .ProductInfo {
+    position: absolute;
+    left: 3vw;
+    top: 135vw;
+    width: 94vw;
+    border-radius: 3.5vw;
+    background-color: #e6d3d0;
+    font-size: 5vw;
+    padding-bottom: 5vw;
+  }
+  .PriceContainer {
+    padding-top: 5vw;
+    padding-left: 5vw;
+    text-align: left;
+  }
+  .MaterialsContainer {
+    padding-left: 5vw;
+    text-align: left;
+  }
+  .MaterialsList {
+    list-style: none;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .ItemContainer {
+    padding-top: 10vh;
+  }
+
+  .BackButton {
+    border: none;
+    background-color: #bf9393;
+    padding: 1vw;
+    border-radius: 1vw;
+    font-size: 1vw;
+    position: absolute;
+    left: 3vw;
+    color: ivory;
+    height: 1vw;
+    padding: 1vw;
+    line-height: 0.1vw;
+  }
+
+  .CarouselContainer {
+    width: 20vw;
+    height: 20vw;
+    margin-top: 10vh;
+    margin-left: 3vw;
+    border-radius: 2vw;
+    overflow: hidden;
+  }
+
+  .CarouselImg {
+    width: 20vw;
+  }
+
+  .AddButton {
+    border: none;
+    background-color: #04738c;
+    border-radius: 1vw;
+    font-size: 1vw;
+    position: absolute;
+    left: 13.5vw;
+    color: ivory;
+    height: 1vw;
+    padding: 1vw;
+    line-height: 0.1vw;
+  }
+
+  .ProductInfo {
+    position: absolute;
+    left: 26vw;
+    margin-top: 10vh;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 2vw;
+    background-color: #e6d3d0;
+    font-size: 1.5vw;
+  }
+  .PriceContainer {
+    padding-top: 2vw;
+    padding-left: 2vw;
+    text-align: left;
+  }
+  .MaterialsContainer {
+    padding-left: 2vw;
+    text-align: left;
+  }
+  .MaterialsList {
+    list-style: none;
+    text-align: left;
+  }
+}

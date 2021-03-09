@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1024px) {
+  .AboutContainer {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+  }
+
+  .AboutFragment {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+  }
+
+  .AboutTitle {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5vw;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .AboutContainer {
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 15vh;
+  }
+
+  .AboutFragment {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  .AboutTitle {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 2vw;
+  }
+
+  p {
+    text-align: justify;
+  }
+}

@@ -1,0 +1,40 @@
+.HeroContainer {
+  width: 100vw;
+  height: 90vh;
+  background-color: rgb(192, 192, 192);
+  padding-top: 10vh;
+  background-image: url("../assets/hero.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.Gradient {
+  background: rgb(230, 211, 208);
+  background: linear-gradient(
+    187deg,
+    rgba(230, 211, 208, 0.1) 27%,
+    rgba(153, 122, 117, 0.8) 73%
+  );
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  backdrop-filter: blur(4px);
+}
+
+@media only screen and (max-width: 768px) {
+  .HeroLogo {
+    position: absolute;
+    width: 75vw;
+    left: 18vw;
+    top: 25vh;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .HeroLogo {
+    position: absolute;
+    width: 20vw;
+    left: 40vw;
+    top: 25vh;
+  }
+}
