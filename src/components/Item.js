@@ -44,7 +44,7 @@ export default function Item(props) {
                     Materiale:
                     {
                     props.selectedItem.materials.map(item=>(
-                        <li className='MaterialsList'>
+                        <li key={item} className='MaterialsList'>
                             {item}
                         </li>
                     ))
