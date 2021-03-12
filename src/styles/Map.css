@@ -48,7 +48,7 @@
     border-radius: 4vw;
   }
   .Button {
-    position: absolute;
+    float: right;
     right: 0;
     font-size: 4.5vw;
     border-radius: 4vw;
